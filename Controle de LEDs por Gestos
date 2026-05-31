@@ -1,0 +1,85 @@
+# Controle de LEDs por Gestos com MediaPipe e ESP32
+
+## 📖 Descrição
+
+Projeto de visão computacional que utiliza OpenCV e MediaPipe para detectar a posição da mão em tempo real e controlar LEDs conectados a um ESP32 através da rede Wi-Fi.
+
+Quando o dedo indicador entra em um botão virtual exibido na tela, um comando HTTP é enviado ao ESP32 para acionar o LED correspondente.
+
+---
+
+## 🎯 Objetivo
+
+Desenvolver uma interface homem-máquina sem contato físico, integrando visão computacional, comunicação em rede e sistemas embarcados.
+
+---
+
+## 🛠 Tecnologias Utilizadas
+
+- Python
+- OpenCV
+- MediaPipe
+- Requests
+- ESP32
+- Arduino IDE
+- Wi-Fi
+
+---
+
+## 🔩 Materiais Utilizados
+
+- 1 ESP32
+- 1 Protoboard
+- 3 LEDs (Vermelho, Amarelo e Verde)
+- 3 Resistores de 220Ω
+- Jumpers
+- Cabo USB
+- Webcam
+
+---
+
+## 🔌 Ligações
+
+| LED | GPIO |
+|------|------|
+| Vermelho | GPIO 2 |
+| Amarelo | GPIO 4 |
+| Verde | GPIO 15 |
+
+---
+
+## ⚙️ Funcionamento
+
+1. A webcam captura a imagem.
+2. O MediaPipe detecta a mão.
+3. O dedo indicador é rastreado.
+4. O sistema verifica se o dedo entrou em um botão virtual.
+5. Um comando é enviado ao ESP32.
+6. O ESP32 aciona o LED correspondente.
+
+---
+
+## 📷 Demonstração
+
+### Vídeo
+
+Cole aqui o link do vídeo:
+
+https://youtu.be/SEU_VIDEO
+
+---
+
+## 🚀 Possíveis Melhorias
+
+- Reconhecimento de gestos complexos.
+- Controle de relés.
+- Controle de servomotores.
+- Controle de múltiplos dispositivos.
+- Reconhecimento facial.
+- Interface gráfica avançada.
+
+---
+
+## 👨‍💻 Autor
+
+Arthur Dias
